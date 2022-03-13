@@ -34,7 +34,7 @@ gpu.makeTexture(testData)
 gpu.buildProgram(`
         precision highp float;
 
-        uniform sampler2D texture;
+        uniform sampler2D texture0;
         varying vec2 vTextureCoord;
 
         void main() {
